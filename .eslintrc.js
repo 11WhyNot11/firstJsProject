@@ -12,7 +12,7 @@ module.exports = {
 	},
 	"rules": {
 		"indent": [
-			"error",
+			"warn",
 			"tab"
 		],
 		"linebreak-style": [
@@ -26,6 +26,9 @@ module.exports = {
 		"semi": [
 			"error",
 			"always"
+		],
+		"no-unused-vars": [
+			"warn"
 		]
 	}
 };
